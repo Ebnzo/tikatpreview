@@ -1,5 +1,7 @@
 module.exports = function tikatpreview(mod) {
 	
+	mod.dispatch.addOpcode('S_PREVIEW_ITEM',   59553)
+	
 	let tikatshop = false;
 	let prev = null;
 
